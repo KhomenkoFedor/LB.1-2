@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+	int ipPart1, ipPart2, ipPart3, ipPart4;
+	cout << "введи першу частину ip: ";
+	cin >> ipPart1; cout << "\n";
+	cout << "введи 2 частину ip : ";
+	cin >> ipPart2; cout << "\n";
+	cout << "введи 3 частину ip : ";
+	cin >> ipPart3; cout << "\n";
+	cout << "введи 4 частину ip : ";
+	cin >> ipPart4; cout << "\n";
+
+	if (ipPart1 <= 255 && ipPart2 <= 255 && ipPart3 <= 255 && ipPart4 <= 255)
+	{
+		cout << "Ip-address : " << ipPart1 << "." << ipPart2 << "." << ipPart3 << "." << ipPart4;
+	}
+	else
+	{
+		cout << "одне або більше чисел білше 255";
+	}
+
+	return 0;
+}

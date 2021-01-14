@@ -1,1 +1,1 @@
-# LB.1-2
+# PershiyRozdilLabaratorni

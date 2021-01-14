@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	float first, second;
+	float epsilon = 0.000001;
+
+	cout << "введи 1 число : ";
+	cin >> first; cout << "\n";
+	cout << "введи 2 число : ";
+	cin >> second; cout << "\n";
+
+	if (abs(first / second - 1) <= epsilon)
+	{
+		cout << "вони рівні";
+	}
+	else
+	{
+		cout << "вони не рівні";
+	}
+
+
+	return 0;
+}

@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	float firstNumb, secondNumb, thirdNumb, fourthNumb, fifthNumb;
+
+	cout << "введи 1 число : ";
+	cin >> firstNumb; cout << "\n";
+	cout << введи 2 число: ";
+	cin >> secondNumb; cout << "\n";
+	cout << "введи 3 число : ";
+	cin >> thirdNumb; cout << "\n";
+	cout << "введи 4 число : ";
+	cin >> fourthNumb; cout << "\n";
+	cout << "введи 5 число : ";
+	cin >> fifthNumb; cout << "\n";
+
+	printf("%.1f\n%.2f\n%.6f\n%.2f\n%.0f\n", fifthNumb, secondNumb, thirdNumb, fourthNumb, fifthNumb);
+
+
+	return 0;
+}
